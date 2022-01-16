@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Login from "../components/Login";
 import { useMoralis } from "react-moralis";
+import Header from "../components/Header";
+import Messages from "../components/Messages";
 
 export default function Home() {
   const { isAuthenticated, logout } = useMoralis();
@@ -8,14 +10,17 @@ export default function Home() {
   if (!isAuthenticated) return <Login />;
 
   return (
-    <div className="h-screen">
+    <div className="h-screen overflow-y-scroll bg-gradient-to-t from-white to-blue-600 overflow-hidden ">
       <Head>
         <title>Hits-Metaverse</title>
 
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      Hits metaverse
-      <button onClick={logout}>Logout</button>
+
+      <div className="max-w-screen-xl mx-auto ">
+        <Header />
+        <Messages />
+      </div>
     </div>
   );
 }
