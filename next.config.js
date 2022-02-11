@@ -4,6 +4,7 @@ module.exports = {
       "avatars.dicebear.com",
       "links.papareact.com",
       "avatars.dicebar.com",
+      "avatars.githubusercontent.com",
     ],
   },
 };

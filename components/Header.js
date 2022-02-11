@@ -11,7 +11,7 @@ function Header() {
         {" "}
         <div className="relative h-24 w-24 mx-auto hidden lg:inline-grid">
           <Image
-            src="https://links.papareact.com/3pi"
+            src="https://avatars.githubusercontent.com/u/48581295?v=4"
             objectFit="cover"
             layout="fill"
             className="rounded-full "

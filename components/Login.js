@@ -9,7 +9,7 @@ function Login() {
       <div className="flex flex-col absolute z-50 h-4/6 w-full items-center justify-center space-y-4">
         <Image
           className="rounded-full"
-          src="https://links.papareact.com/3pi"
+          src="https://avatars.githubusercontent.com/u/48581295?v=4"
           height={200}
           width={200}
         />
